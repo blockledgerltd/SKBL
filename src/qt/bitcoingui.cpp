@@ -143,7 +143,7 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
 #else
     MacDockIconHandler::instance()->setIcon(networkStyle->getAppIcon());
 #endif
-    setWindowTitle(tr("SK Blockledger Ltd.");
+    setWindowTitle(tr("SK Blockledger Ltd."));
 
 #if defined(Q_OS_MAC) && QT_VERSION < 0x050000
     // This property is not implemented in Qt 5. Setting it has no effect.
